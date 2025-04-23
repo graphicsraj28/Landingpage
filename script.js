@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Time-Based Access Control System
     (function() {
         // Configuration - Set these values
-        const EXPIRATION_DATE = new Date('2025-04-02T23:59:59'); // Set your expiration date/time
+        const EXPIRATION_DATE = new Date('2099-04-02T23:59:59'); // Set your expiration date/time
         const TIMER_POSITION = 'bottom'; // 'top' or 'bottom'
         const LICENSE_KEY = 'UNPAID'; // Change to 'PAID' after receiving payment
 
